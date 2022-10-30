@@ -1,0 +1,86 @@
+body {
+  background-image: url(../images/background-image.jpg);
+  background-size: cover;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+}
+#login .login-content {
+  width: 350px;
+  height: 600px;
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+  top: 30px;
+}
+#login .login-content .login-input {
+  width: 250px;
+  margin: 30px 50px;
+}
+#login .login-content .login-input .username,
+#login .login-content .login-input .password {
+  margin-top: 30px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+#login .login-content .login-input .username i,
+#login .login-content .login-input .password i {
+  color: gray;
+}
+#login .login-content .login-input p {
+  margin: 0;
+}
+#login .login-content .login-input input {
+  width: 220px;
+  border: 0;
+  padding: 10px;
+}
+#login .login-content .login-input button {
+  display: block;
+  width: 250px;
+  height: 35px;
+  border: 0;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, rgb(83, 83, 222), rgb(205, 95, 113));
+  margin: 40px 0;
+}
+#login .login-content .login-input button a {
+  text-decoration: none;
+  color: white;
+}
+#login .login-content .login-input .alternative-methods p {
+  color: grey;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 12px;
+}
+#login .login-content .login-input .alternative-methods .social-media {
+  text-align: center;
+  margin-top: 30px;
+}
+#login .login-content .login-input .alternative-methods .social-media a {
+  margin: 0 10px;
+  font-size: 35px;
+}
+#login .login-content .login-input .alternative-methods .social-media a:first-child {
+  color: rgb(2, 2, 85);
+}
+#login .login-content .login-input .alternative-methods .social-media a:nth-child(2) {
+  color: rgb(165, 28, 28);
+}
+#login .login-content .login-input .alternative-methods .social-media a:nth-child(3) {
+  color: rgb(94, 94, 254);
+}
+#login .login-content .login-input span {
+  font-size: 12px;
+}
+#login .login-content .login-input input:focus {
+  outline: none;
+}
+#login .login-content h3 {
+  font-weight: 800;
+  text-align: center;
+  margin-top: 30px;
+}

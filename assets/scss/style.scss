@@ -1,0 +1,119 @@
+body {
+    background-image: url(../images/background-image.jpg);
+    background-size: cover;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+
+
+    .login-content {
+        width: 350px;
+        height: 600px;
+        background-color: white;
+        border-radius: 30px;
+        position: relative;
+        top: 30px;
+
+        .login-input {
+
+            width: 250px;
+            margin: 30px 50px;
+            // margin-top: 50px;
+
+            .username,
+            .password {
+                margin-top: 30px;
+                border: 0;
+                border-bottom: 1px solid black;
+
+                i {
+                    color: gray;
+                }
+            }
+
+            p {
+                margin: 0;
+            }
+
+            input {
+                width: 220px;
+                border: 0;
+                padding: 10px;
+            }
+
+            button {
+                display: block;
+                width: 250px;
+                height: 35px;
+                border: 0;
+                border-radius: 20px;
+                background-image: linear-gradient(to right, rgb(83, 83, 222), rgb(205, 95, 113));
+                margin: 40px 0;
+
+                a{
+                    text-decoration:none;
+                    color: white;
+                }
+            }
+
+            .alternative-methods {
+                p {
+                    color: grey;
+                    text-align: center;
+                    margin: 20px 0;
+                    font-size: 12px;
+                }
+
+                .social-media {
+                    text-align: center;
+                    margin-top: 30px;
+
+                    a {
+
+                        margin: 0 10px;
+                        // margin-top:20px;
+                        font-size: 35px;
+
+                        &:first-child {
+                            color: rgb(2, 2, 85);
+                        }
+
+                        &:nth-child(2) {
+                            color: rgb(165, 28, 28);
+                        }
+
+                        &:nth-child(3) {
+                            color: rgb(94, 94, 254);
+                        }
+                    }
+
+                    // .google{
+                    //     width:50px;
+                    //     height:50px;
+                    //     background-color:red;
+                    //     border-radius:30px;
+                    // }
+                }
+            }
+
+            span {
+                font-size: 12px;
+                // margin-bottom:50px;
+            }
+            input:focus{
+                outline:none;
+            }
+
+        }
+
+        h3 {
+            font-weight: 800;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+
+    }
+}
